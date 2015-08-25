@@ -1,1 +1,15 @@
-each "hello world!"
+<head>
+  <title>myapp</title>
+</head>
+
+<body>
+  <h1>Welcome to Microscope!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>点我点我</button>
+  <br />
+  <p>你已经点了 {{counter}} 次按钮。</p>
+</template>
