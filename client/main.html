@@ -1,15 +1,15 @@
 <head>
-  <title>Microscope</title>
+<title>我的讨论组</title>
 </head>
-
 <body>
-  <h1>Welcome to Microscope!</h1>
-
-  {{> hello}}
+  <div class="container">
+    <header class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">我的讨论组</a>
+      </div>
+    </header>
+    <div id="main">
+      {{> postsList}}
+    </div>
+  </div>
 </body>
-
-<template name="hello">
-  <button>点我点我</button>
-  <br />
-  <p>你已经点了 {{counter}} 次按钮。</p>
-</template>
