@@ -1,0 +1,23 @@
+<!-- <template name="layout">
+  <div class="container">
+    <header class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">我的新闻组</a>
+      </div>
+    </header>
+    {{> header}}
+    <div id="main" class="row-fluid">
+      {{> yield}}
+    </div>
+  </div>
+</template>
+ -->
+
+ <template name="layout">
+  <div class="container">
+    {{> header}}
+    <div id="main" class="row-fluid">
+      {{> yield}}
+    </div>
+  </div>
+</template>
